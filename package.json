@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
-  "name": "web-project",
-=======
   "name": "homework",
->>>>>>> feature/sakura
+
   "private": true,
   "version": "0.0.0",
   "type": "module",
