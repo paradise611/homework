@@ -23,7 +23,7 @@ let particles = [];
 const particleCount = 80;
 let animationFrameId = null;
 
-// 2. 粒子类 (与您的原始代码完全一致)
+
 class SakuraParticle {
   constructor(canvasWidth, canvasHeight) {
     this.x = Math.random() * canvasWidth;
@@ -58,9 +58,7 @@ class SakuraParticle {
   }
 }
 
-// ... (省略 resize, initParticles 函数) ...
 
-// 4. 动画循环 (关键修正点在此)
 const animate = () => {
   if (!ctx || !canvas.value) return;
 
