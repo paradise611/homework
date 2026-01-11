@@ -1,0 +1,14 @@
+
+:root {
+  --border-radius: 12px;
+  --box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+  --primary-color: #062d5a;
+  --secondary-color: #062d5a;
+  --accent-color: #4a90e2;
+  --bg-light: #f8f9fa;
+  --card-bg: white;
+  --text-main: #333;
+  --text-secondary: #666;
+  --text-light: #999;
+}
