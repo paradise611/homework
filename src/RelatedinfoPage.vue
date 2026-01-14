@@ -27,7 +27,7 @@
         </template>
       </InfoPageLayout>
       
-      <SectionTitle title="精选视频" />
+      <SectionTitle title="精选文章" />
       
       <div class="container2">
         <InfoCard
@@ -47,34 +47,34 @@
 </template>
 
 <script setup>
-import Nav from '../components/Nav.vue';
-import Sakura from '../components/Sakura.vue'; 
-import Header from '../components/Header.vue';
+import Nav from './components/Nav.vue';
+import Sakura from './components/Sakura.vue'; 
+import Header from './components/Header.vue';
 import { ref } from 'vue';
 
-import qian1Image from '../assets/images/qian1.jpg'; 
+import qian1Image from './assets/images/qian1.jpg'; 
 const headerImage = ref(qian1Image);
-import SectionTitle from '../components/SectionTitle.vue';
+import SectionTitle from './components/SectionTitle.vue';
 
-import InfoPageLayout from '../components/Relatedinfo/Layout.vue';
-import HotListSidebar from '../components/Relatedinfo/HotList.vue';
-import InfoCard from '../components/Relatedinfo/infoCard.vue';
+import InfoPageLayout from './components/Relatedinfo/Layout.vue';
+import HotListSidebar from './components/Relatedinfo/HotList.vue';
+import InfoCard from './components/Relatedinfo/infoCard.vue';
 
 // --- 数据定义 ---
 
-// 1. 最新资讯数据 (对应 .main-container1 中的两个 .grid-item)
+// 1. 最新资讯数据 
 const latestArticles = ref([
   { imageUrl: 'src/assets/images/castle_sky2.jpg', title: '天空之城创作背景解析', description: '简要介绍天空之城的创作灵感、时代背景等。', url: 'https://zhuanlan.zhihu.com/p/633489395' },
-  { imageUrl: 'src/assets/images/haer2.jpg', title: '哈尔的移动城堡创作背景解析', description: '简要介绍哈尔的移动城堡的创作灵感、时代背景等。', url: 'https://example.com/sky-castle' },
+  { imageUrl: 'src/assets/images/haer2.jpg', title: '以心传心，不求甚解——评《哈尔的移动城堡》的创作理念', description: '它并不是那么“清楚”地去讲述一个故事。', url: 'https://example.com/sky-castle' },
 ]);
 
 // 2. 热点信息数据 (对应 .hot-list)
 const hotItems = ref([
-  { title: '宫崎骏新作最新消息', url: '#' },
-  { title: '吉卜力美术馆参观指南', url: '#' },
-  { title: '经典动画重映时间表', url: '#' },
-  { title: '动画配乐背后的故事', url: '#' },
-  { title: '角色设计灵感来源', url: '#' },
+  { title: '定了！宫崎骏新片来了', url: 'https://news.qq.com/rain/a/20240315A01UYC00' },
+  { title: '吉卜力美术馆参观指南', url: 'https://www.bring-you.info/zh-hans/ghibli-museum' },
+  { title: '时隔31年！宫崎骏《天空之城》内地重映', url: 'https://zhuanlan.zhihu.com/p/610675514' },
+  { title: '从宫崎骏动画音乐到严肃古典乐', url: 'https://www.thepaper.cn/newsdetail_forward_30311365' },
+  { title: '探寻宫崎骏动画灵感源地', url: 'https://www.sohu.com/a/949339124_121814834' },
 ]);
 
 // 3. 精选视频数据 (对应 .container2 中的八个 .grid-item)
@@ -110,7 +110,7 @@ const videoItems = ref([
   max-width: 1200px;
 }
 
-/* container2 视频网格样式 */
+/* container2 网格样式 */
 .container2 {
   display: grid; 
   background-color: #f9f9f9;
