@@ -53,13 +53,14 @@ ul {
   margin-bottom: 15px; 
   background: url('src/assets/images/flower.png')no-repeat left ;
   background-size: 18px 18px;  
-  padding-left: 20px;
+  padding-left: 22px;
   
 } 
 
 /* 链接样式 */
 .hot-list a {
   font-size: 18px;
+  line-height: 1.6;
   color: #1e1d1d;
   text-decoration: none;
   display: block;
