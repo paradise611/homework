@@ -1,0 +1,142 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+main {
+    margin-top: 30px;
+}
+.icontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.parea {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pcontainer {
+    width: 100%;
+    max-width: 400px;
+    height: 550px;
+    background-color: #bbdefb;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.carea {
+    flex: 2;
+    min-width: 300px;
+}
+h1 {
+    color: #0d47a1;
+    margin-bottom: 15px;
+    font-size: 2.2rem;
+}
+.text {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+.text p {
+    text-indent: 2em;
+    margin: 0;
+}
+.iwidth {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+    margin-top: 30px;
+}
+.iwidth h2 {
+    color: #1565c0;
+    margin: 0 0 25px 0;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #2196f3;
+    font-size: 1.8rem;
+}
+.igrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.col {
+    padding: 15px;
+}
+.col h3 {
+    color: #0d47a1;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e3f2fd;
+}
+.iitem {
+    margin-bottom: 10px;
+    padding: 5px 0;
+    font-size: 1.05rem;
+}
+.author-header {
+    background: 
+        linear-gradient(90deg, rgba(1, 21, 39, 0.7) 0%, rgba(171, 198, 229, 0.4) 50%, rgba(0,0,0,0) 100%),
+        url('@/assets/images/totoro2.jpg'); /* Vue绝对路径 */
+    background-size: cover;
+    color: white;
+    padding: 6rem 1rem;
+    margin-bottom: 2rem;
+}
+.author-header .hcontainer {
+    text-align: left;
+    max-width: 600px;
+    margin-left: 2rem;
+    max-width: 1200px;
+    margin: 0 auto 0 2rem;
+}
+.author-header h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+/* 响应式样式 */
+@media (max-width: 992px) {
+    .igrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .pcontainer {
+        max-width: 350px;
+        height: 492px;
+    }
+}
+@media (max-width: 768px) {
+    .icontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pcontainer {
+        max-width: 100%;
+        height: 420px;
+    }
+    .carea {
+        width: 100%;
+    }
+    .igrid {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 480px) {
+    .pcontainer {
+        height: 350px;
+    }
+}
