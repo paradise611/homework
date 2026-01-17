@@ -29,25 +29,25 @@
       
     </main>
     
-    <AppFooter />
+      <Allfooter />
   </div>
 </template>
 
 <script setup>
-import '../assets/css/variables.css';
-import Nav from '../components/Nav.vue';
-import Sakura from '../components/Sakura.vue'; 
-import Header from '../components/Header.vue';
+import './assets/css/variables.css';
+import Nav from './components/Nav.vue';
+import Sakura from './components/Sakura.vue'; 
+import Header from './components/Header.vue';
 import { ref } from 'vue';
 
-import Image from '../assets/images/totoro1.jpg'; 
+import Image from './assets/images/totoro1.jpg'; 
 const headerImage = ref(Image);
-import SectionTitle from '../components/SectionTitle.vue';
-
+import SectionTitle from './components/SectionTitle.vue';
+import Allfooter from './components/allfooter.vue';
 // 新增组件
-import ImageTextSection from '../components/PictureRelated/ImageTextSection.vue';
-import ScrollGallery from '../components/PictureRelated/ScrollGallery.vue';
-import ImageGrid from '../components/PictureRelated/ImageGrid.vue';
+import ImageTextSection from './components/PictureRelated/ImageTextSection.vue';
+import ScrollGallery from './components/PictureRelated/ScrollGallery.vue';
+import ImageGrid from './components/PictureRelated/ImageGrid.vue';
 
 // --- ImageTextSection 数据 ---
 const contentA = ref("吉卜力工作室自1985年成立以来，创作了无数经典的动画作品，其原画手稿更是艺术的瑰宝。本图集收录了《龙猫》《千与千寻》《天空之城》等经典作品的原版原画，每一张都承载着宫崎骏先生对动画的热爱与执着。");

@@ -270,8 +270,6 @@ onUnmounted(() => stopAutoSlide());
   transform: scale(1.2);
 }
 /* ========== 轮播图样式结束 ========== */
-
-/* 响应式适配 */
 @media (max-width: 768px) {
   .container {
     width: 95%;

@@ -15,6 +15,7 @@ import banner from './components/home_com/banner.vue';
 import introduce from './components/home_com/introduce.vue';
 import work from './components/home_com/work.vue';
 import hvideo from './components/home_com/hvideo.vue';
+import allfooter from './components/allfooter.vue';
 </script>
 <style>
 </style>

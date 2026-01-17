@@ -42,7 +42,7 @@
       
     </main>
     
-    <AppFooter />
+    <Allfooter />
   
 </template>
 
@@ -59,6 +59,7 @@ import SectionTitle from './components/SectionTitle.vue';
 import InfoPageLayout from './components/Relatedinfo/Layout.vue';
 import HotListSidebar from './components/Relatedinfo/HotList.vue';
 import InfoCard from './components/Relatedinfo/infoCard.vue';
+import Allfooter from './components/allfooter.vue';
 
 // --- 数据定义 ---
 

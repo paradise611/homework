@@ -2,6 +2,7 @@
   <div>
     <Nav />
     <AuthorHeader />
+    <allfooter />
     <div class="container">
       <main>
         <AuthorInformation />
@@ -17,6 +18,7 @@ import AuthorHeader from './components/Author_com/author_header.vue'
 import AuthorInformation from './components/Author_com/information.vue'
 import AuthorBasic from './components/Author_com/basic.vue'
 import './components/Author_com/Author.css'
+import allfooter from './components/allfooter.vue'
 </script>
 <style scoped>
 .container {
