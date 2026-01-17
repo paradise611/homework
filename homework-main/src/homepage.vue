@@ -6,7 +6,7 @@
   <work />
   <hvideo />
   <Sakura />
-  <Allfooter />
+  <allfooter />
 </template>
 
 <script setup>
@@ -17,7 +17,7 @@ import introduce from './components/home_com/introduce.vue';
 import work from './components/home_com/work.vue';
 import hvideo from './components/home_com/hvideo.vue';
 import Sakura from './components/Sakura.vue'; 
-
+import allfooter from './components/allfooter.vue';
 </script>
 <style>
 </style>
