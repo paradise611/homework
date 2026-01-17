@@ -18,7 +18,7 @@ import AuthorHeader from './components/author_com/header.vue'
 import AuthorInformation from './components/author_com/information.vue'
 import AuthorBasic from './components/author_com/basic.vue'
 import './components/author_com/author.css'
-import Allfooter from './components/allfooter.vue'
+
 </script>
 <style scoped>
 .container {
