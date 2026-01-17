@@ -2,6 +2,7 @@
   <div>
     <Nav />
     <AuthorHeader />
+    <Sakura />
     <div class="container">
       <main>
         <AuthorInformation />
@@ -20,6 +21,7 @@ import AuthorInformation from './components/Author_com/information.vue'
 import AuthorBasic from './components/Author_com/basic.vue'
 import './components/Author_com/Author.css'
 import allfooter from './components/allfooter.vue'
+import Sakura from './components/Sakura.vue'
 </script>
 <style scoped>
 .container {
