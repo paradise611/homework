@@ -13,10 +13,10 @@
 
 <script setup>
 import Nav from './components/Nav.vue'
-import AuthorHeader from './components/author_com/header.vue'
-import AuthorInformation from './components/author_com/information.vue'
-import AuthorBasic from './components/author_com/basic.vue'
-import './components/author_com/author.css'
+import AuthorHeader from './components/Author_com/author_header.vue'
+import AuthorInformation from './components/Author_com/information.vue'
+import AuthorBasic from './components/Author_com/basic.vue'
+import './components/Author_com/Author.css'
 </script>
 <style scoped>
 .container {
