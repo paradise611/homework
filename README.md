@@ -2,14 +2,15 @@
 ## 一、项目启动方式和说明
 本项目由多人协作开发，使用Git管理代码和仓库，使用Vue框架将功能组件化，为呈现项目的开发过程，采用了多次提交创建多个功能分支并合并到主分支的提交方式，并以feature/**的方式命名，由于不同同学负责不同的内容，因此分支内容只代表相应的功能实现，并不为完整的项目实现，完整的项目为main分支的内容。
 
-        项目地址：https://github.com/paradise611/homework.git
-        启动方式：克隆仓库中的main分支中的项目
-        访问网站：https://y56cy.github.io/homework/
+项目地址：https://github.com/paradise611/homework.git
+
+ 启动方式：克隆仓库中的main分支中的项目
+
 ```bash
 git clone https://github.com/paradise611/homework.git
 ```
 
-
+访问网站：https://y56cy.github.io/homework/
 
 ## 二、选题背景与项目介绍
  宫崎骏动漫系列凭借细腻的叙事与治愈的视觉风格，收获了全球广大群体的喜爱与追捧，出于对其动漫作品和喜爱，以及对宫崎骏先生的敬意，我们选择宫崎骏动漫官网作为作业项目，旨在对宫崎骏多年来的作品做一个总结和介绍，一切资源均来源于网络。
